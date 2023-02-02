@@ -10,6 +10,10 @@ variable subnets {
   description = "Subnet IDs for EC2 instances"
   type        = list(string)
 }
+variable private_subnets {
+  description = "Subnet IDs for EC2 instances"
+  type        = list(string)
+}
 variable "vpc"{
 type        = string
 default = ""
