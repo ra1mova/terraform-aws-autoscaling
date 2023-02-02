@@ -1,1 +1,1 @@
-# terraform-aws-autoscaling
+# module_autoscaling
