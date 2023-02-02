@@ -42,8 +42,7 @@ resource "aws_launch_template" "templete" {
   }
   }
 
-  user_data = base64encode(file("../../modules/autoscaling/userdata.sh.tpl"))
-
+  user_data = var.userdata
 }
 
 

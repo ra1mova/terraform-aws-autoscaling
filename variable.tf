@@ -18,3 +18,7 @@ variable "allow_ports" {
   type    = list(any)
   default = ["80", "443", "22", "8080"]
 }
+variable "userdata"{
+type        = string
+default = ""
+}
